@@ -35,6 +35,7 @@ Generative search engines have the potential to transform how people seek inform
 
 ### Separated results on 7 adversarial attack methods
 
+<img src="./image/separately.png">
 
 *The ASR and Factscore evaluated all generative search engines and LLMs on seven attack methods. "Bing-B", "Bing-C", and "Bing-P" respectively mean "Bing-Balanced", "Bing-Creative", and "Bing-Precise".*
 
