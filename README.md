@@ -7,6 +7,22 @@ Adversarial Factoid Questions"*.
 <img src="./image/7AttackMethods.png" height="500">
 
 ## Dataset Details
+Datasets are stored in JSON format and follow the format as:
+
+- `index`
+  - "original_input" (selected raw input sentence from the Internet)
+  - `method name`  (Different adversarial attack methods. For a detailed description of the methods, please refer to section 2.1 of our paper.)
+    - "declare_input" (Sentence attacked by specific method）
+    - "declare_ans"
+      - `model_name`  (The model name for answering the input)
+        - `text`  (The text part of the answer)
+        - `reference link`  (The reference link given by the generative search engine)
+    - "question_input":
+    - "question_ans":
+      - `model_name`
+        - `text`
+        - `reference link`    
+
 The original input sentences (including question format) can be found in:
 - `./adversarial_data/input_data`
 
